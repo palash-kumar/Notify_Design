@@ -1,0 +1,223 @@
+
+    /* GENERAL TEXT FORMAT Start */
+.title{
+    font-size: 21px;
+    /*font-family: ;*/
+    padding: 20px 0 20px 0;
+    color: #000000;
+    font-weight: 400;
+}
+.description{
+    font-size: 13px;
+    /*font-family: ;*/
+    /*padding: 10px;*/
+    color: #9d9d9d;
+    font-weight: 400;
+}
+.quote{
+    font-size: 13px;
+    /*font-family: ;*/
+    /*padding: 0 250px;*/
+    max-width: 840px;
+    margin: 0 auto;
+    color: #9d9d9d;
+    font-weight: 400;
+    text-align: center;
+}
+    /* GENERAL TEXT FORMAT End*/
+
+    /* Banner Start */
+.banner{
+    background: url('../img/jumbotron.jpg') no-repeat;
+    background-size: cover;
+    background-position:50% 50%;
+    padding: 150px 0;
+    border-top: 10px solid #2ecc71;
+
+}
+    .banner .jumbotron{
+        background-color: transparent;
+        margin-bottom: 0;
+    }
+
+    .banner .jumbotron p{
+      font-family: 'Helvetica Neue';
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: 400;
+        max-width: 390px;
+        padding-top: 20px;
+    }
+    .banner .jumbotron ul li a{
+        font-size: 25px;
+        line-height: 43px;
+        text-align: center;
+        display: block;
+        color: #fff;
+     }
+    .banner .jumbotron ul li{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        background: rgba(54, 35, 26, .3);
+        margin-right: 15px;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s ;
+    }
+    .banner .jumbotron ul li:hover{
+        background: #2ecc71;
+
+    }
+    /* Banner END */
+
+    /* FEATURES Start */
+
+.features{
+    background: #fff;
+    padding: 55px 0;
+}
+.features .thumbnail{
+    border: none;
+}
+.features .thumbnail i{
+    width: 95px;
+    height: 95px;
+    background: #2ecc71;
+    line-height: 95px;
+    font-size: 50px;
+    border-radius: 50%;
+    color: #fff;
+}
+    /* FEATURES End */
+
+.get_notified{
+    background-color: #e3e3e3;
+    padding: 60px;
+}
+    .get_notified iframe{
+        width: 90%;
+        height: 300px;
+        border-radius: 5%;
+    }
+    .input-group {
+        position: relative;
+        display: table;
+        border-collapse: separate;
+
+        width: 70%;
+        float: left;
+    }
+    .input-group-addon:last-child {
+        border-left: 0;
+        background-color: #2ecc71;
+        border: none;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        color: white;
+    }
+    .bdr input{
+
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+
+    }
+
+
+    /* Testimonials Start */
+.testimonials{
+    padding: 60px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+    .testimonials img{
+        margin: 10px 0;
+    }
+    .padit{
+        margin:0 auto;
+        max-width: 1120px;
+    }
+    .padit h4{
+        padding-top: 12px;
+    }
+
+    .flexslider-controls .flex-control-nav img{
+        padding: 0px;
+        margin: 0;
+    }
+    .flex-control-nav li:last-child, .flex-control-nav li:first-child{
+        opacity: .3;
+    }
+    .flexslider-controls {
+        overflow: auto;
+        white-space: nowrap;
+
+    }
+    .flex-control-nav li, .flexslider-controls ol{
+        display:inline-block;
+    }
+    /* Testimonials End */
+
+    /* Get In Touch Start */
+.g_i_t{
+    text-align: center;
+    padding-bottom: 50px;
+}
+    .g_i_t ul li a{
+        font-size: 20px;
+        line-height: 35px;
+        text-align: center;
+        display: block;
+        color: #fff;
+    }
+    .g_i_t ul{
+        padding-top: 20px;
+    }
+    .g_i_t ul li{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: rgba(54, 35, 26, .3);
+        margin-right: 15px;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s ;
+    }
+    .g_i_t ul li:hover{
+        background: #2ecc71;
+
+    }
+
+    /* Get In Touch End */
+
+    /* FOOTER Start */
+.footer{
+    /*border: 2px solid black;*/
+    background-color: #e3e3e3;
+
+    text-align: center;
+}
+    .footer ul{
+        display: inline-block;
+        padding: 40px;
+    }
+
+    .footer li a{
+        display: inline-block;
+        padding: 10px;
+        list-style: none;
+        text-decoration: none;
+        color: #848484;
+    }
+    .footer li a:hover{
+        color: #62d995;
+        list-style: none;
+        text-decoration: none;
+    }
+    /* FOOTER END */
+
